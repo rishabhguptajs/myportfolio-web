@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(33, 33, 33);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.left_card{
+    border: 1px solid rgb(105, 105, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    margin: 20px;
+    border-radius: 30px;
+    cursor: default;
+}
+.title{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.mail{
+    color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+.address{
+    color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.copyrights{
+    color: rgb(119, 119, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_icon{
+    cursor: pointer;
+    border: 1px solid rgb(105, 105, 105);
+    padding: 12px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+.hire{
+    width: fit-content;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(41, 255, 119);
+    border: none;
+    margin-top: 18px;
+    margin: 15px;
+    color:rgb(46, 46, 46);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.hire:hover{
+    transition-duration: 0.15s;
+    box-shadow: 0px 0px 10px 0px rgba(0, 228, 84, 0.431);
+}
+.main_content{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    overflow-y: visible;
+    /* margin-left: 10vw; */
+    width: 100%;
+}
+.introduction{
+    height: 100vh;
+    width: fit-content;
+    /* border: 2px solid blue; */
+}
+.intro_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: rgb(209, 209, 209); 
+    font-size: 7px;
+    padding: 7px;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.headline{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+}
+.description{
+    color: rgb(171, 171, 171);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.myproject_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: rgb(209, 209, 209); 
+    font-size: 15px;
+    padding: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.myproject_button:hover{  
+    .projectbutton_icon{
+        transition-duration: 0.15s;
+        transform: translateY(4px);
+    }
+    transition-duration: 0.15s;
+    box-shadow: 0px 0px 10px 0px rgba(0, 228, 84, 0.431);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+    
+    .left_card {
+      margin: 20px auto;
+    }
+    
+    .title {
+      flex-direction: column;
+      font-size: 12px;
+    }
+    
+    .mail,
+    .address {
+      font-size: 16px;
+      padding: 0;
+    }
+    
+    .social_icon {
+      margin: 0 5px;
+    }
+    
+    .hire {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+    
+    .introduction {
+      padding: 20px;
+    }
+    
+    .headline {
+      font-size: 30px;
+    }
+    
+    .description {
+      font-size: 18px;
+    }
+  }
+  
