@@ -4,7 +4,7 @@ const year = date.getFullYear();
 copyright.textContent = year;
 
 document.addEventListener("DOMContentLoaded", function () {
-    setTimeout(function () {
+    setTimeout(() => {
         document.querySelector(".preloader").style.display = "none";
     }, 2000);
 });
